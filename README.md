@@ -1,5 +1,3 @@
-# Hackaton_Zabbix_IA
-
 # 🚀 AI-Enhanced Zabbix Monitoring - Implementation Guide
 
 This guide provides step-by-step instructions to deploy **Zabbix with AI-powered monitoring** and a **web-based prediction system**.
@@ -10,8 +8,23 @@ This guide provides step-by-step instructions to deploy **Zabbix with AI-powered
 - **Web Interface:** Streamlit app predicts bandwidth & provides recommendations.
 - **Machine Learning Model:** Predicts network bandwidth allocation based on traffic patterns.
 
+For additional details, refer to the **project reports and documentation** included in the repository.
+
 ---
 
+# 📂 Repository Structure
+```
+📁 zabbix-ai-monitoring
+│── 📁 zabbix-setup/             # Zabbix installation & configuration
+│── 📁 ai-integration/           # AI scripts & model setup
+│── 📁 web-interface/            # Streamlit-based bandwidth predictor
+│── 📁 ml-model/                 # Machine learning training & testing scripts
+│── 📁 scripts/                  # Automation & deployment scripts
+│── 📄 README.md                 # Main documentation
+│── 📄 reports/                   # Additional project documentation
+```
+
+---
 
 # 1️⃣ Zabbix Setup (Ubuntu Server)
 ## ✅ Prerequisites
@@ -133,4 +146,10 @@ streamlit run web-interface/app.py
 
 ---
 
+### 📄 Additional Documentation
+For detailed configurations, testing results, and theoretical background, refer to the **project reports in the repository**.
+
+---
+
 ### 💡 This guide ensures smooth deployment of AI-powered Zabbix monitoring. Let me know if you need refinements! 🚀
+
